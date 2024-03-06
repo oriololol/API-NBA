@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+  background-color: antiquewhite;
+
+}
+#img{
+    max-width: 300px;
+    margin-left: 40%;
+    margin-top: 1em;
+    margin-right: 40%;
+}
+#btn{
+  margin-top: 2em;
+  max-width: 300px;
+  margin-left: 40%;
+  margin-right: 40%;
+
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #45a049;
+  }
+.btn:active {
+    background-color: #3e8e41;
+  }
+
+input{
+    margin-top: 2em;
+    max-width: 300px;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+    border-radius: 5px;
+    border: none;
+}
+
